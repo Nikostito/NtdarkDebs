@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<style>
+#cydiaicon {
+        background: url("assets/cydia.png");
+        height: 150px;
+        width: 150px;
+        background-size: cover;
+    }
+
+    #zebraicon {
+        background: url("assets/zebra.png");
+        height: 150px;
+        width: 150px;
+        background-size: cover;
+    }
+	</style>
+<body>
+ <div id="repotitle">
+        Ntdark's Repo
+    </div>
+    <div id="repodesc">
+        Hosting Debs
+    </div>
+    <div id="clickto">
+        Click to add to:
+    </div>
+    <div id="icons">
+        <div id="sillyoicon" onclick="location.href='sileo://source/http://repo.kritanta.me/';">
+
+        </div>
+        <div id="cydiaicon" onclick="location.href='https://cydia.saurik.com/api/share#?source=http://repo.kritanta.me/';">
+
+        </div>
+        <div id="zebraicon" onclick="location.href='zbra://sources/add/http://repo.kritanta.me';">
+
+        </div>
+    </div>
+</body>
+</html>
